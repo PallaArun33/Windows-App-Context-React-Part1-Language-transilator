@@ -16,8 +16,8 @@ class App extends Component {
     return (
       <>
         <Header />
-        <LandingSection activeLanguage={activeLanguage} />
-        <FeaturesSection activeLanguage={activeLanguage} />
+        <LandingSection />
+        <FeaturesSection />
       </>
     )
   }
